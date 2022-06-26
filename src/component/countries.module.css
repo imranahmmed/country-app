@@ -1,0 +1,32 @@
+body {
+    font-family: "Rockwell";
+    text-align: center!important;
+}
+
+.countries {
+    padding: 2rem;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: auto auto auto auto auto;
+    
+}
+
+
+.heading{
+    border-bottom: 1px solid cadetblue;
+    padding: 15px;
+    background-color: aliceblue;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+@media screen and (min-width:768px) {
+    .countries {
+        grid-template-columns: auto auto;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .countries {
+        grid-template-columns: auto auto auto auto auto;
+    }
+}

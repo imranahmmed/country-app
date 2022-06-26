@@ -1,0 +1,29 @@
+
+.country {
+    padding: 1rem;
+    background-color: lightseagreen;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.country:hover{
+    transform: scale(1.1);
+}
+.countryFlag {
+    height: 7rem;
+    object-fit: contain;
+}
+
+.countryInfo {
+    background-color: #004244;
+    color: #fff;
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.countryInfo h6:last-child{
+    margin: 0;
+}
